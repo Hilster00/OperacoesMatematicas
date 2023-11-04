@@ -7,48 +7,80 @@ Este repositório contem várias funções matemáticas que implementei ao longo
 
 ## Códigos:
 
-- [CalculadoraDerivada](Versao0)
-- [Fatorail](Versao1)
-- [Fatorial_Memoizacao](Versao2)
-- [Numeros](Versao3)
-- [Versão 4 - Interface Gráfica](Versao4)
-- [Versão 5 - Integração com a Versão 3](Versao5)
-- [Versão 6 - Adição de Raiz Quadrada](Versao6)
-- [Versão 7 - Adição de Funções Seno e Cosseno](Versao7)
+- [Calculadora de Derivada](CalculadoraDerivada.py)
+- [Números Complexos](Complexos.py)
+- [Fatorail](Fatorial.py)
+- [Fatorial Versão 2](fatoria2.py)
+- [Fatorial com Memoizacao](Fatorial_Memoizacao.py)
+- [Encontrar Menor ou Maior Valor](MenorMaiorValor.py)
+- [Números de Diferentes Bases](Numeros.py)
+- [Operações de Conjuntos](OperacoesConjuntos.py)
+- [Cálculo de Seno e Cosseno](SenCos.py)
+- [Cálculo de Fibonacci](fibonacci.py)
+- [Triângulo de pascal](pascal.py)
+- [Operações básicas com matrizes](Matriz)
+- [Operações básicas com números Primos](Primos)
+
+  
+
 
 ---
 
-## Versão 0 - Calculadora Simples<a name="CalculadoraDerivada.py"></a>
+## Calculadora de Derivada <a name="CalculadoraDerivada.py"></a>
 
-Minha primeira calculadora feita em python, ela é simples com um módulo para cada operação matemática básica.
+Calcula a derivada de forma simples, com isso não permite expressões muito elaboradas.
 
-## Versão 1 - Calculadora com Módulos<a name="Versao1"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-Uma calculadora com um módulo para operações matemáticas básicas e outro para importação de números e operações. O programa principal calcula com base nas entradas.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
-## Versão 2 - Calculadora de Operações Únicas<a name="Versao2"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-Uma calculadora que interpreta operações em uma única entrada, eliminando a necessidade de digitar números separadamente.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
-## Versão 3 - Calculadora com Precedência<a name="Versao3"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-Uma calculadora aprimorada que leva em consideração a precedência das operações matemáticas ao interpretar expressões.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
-## Versão 4 - Interface Gráfica<a name="Versao4"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-Uma interface gráfica foi adicionada à calculadora para uma experiência mais amigável. Usa `eval` para calcular as operações.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
-## Versão 5 - Integração com a Versão 3<a name="Versao5"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-A versão 3, com sua interpretação de operações com precedência, foi integrada ao back-end para cálculos precisos.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
-## Versão 6 - Adição de Raiz Quadrada<a name="Versao6"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-Melhorias internas na forma de codificação, agora não existe uma função separada para cada botão e mais funções matemáticas foram adicionadas.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
-## Versão 7 - Adição de Funções Seno e Cosseno<a name="Versao7"></a>
+## Números Complexos <a name="Complexos.py"></a>
 
-Melhorias na interpretação de parenteses não fechados corretamente e na separação de operações, aceitando operações seguidas como √√9, adicionado mais operações matemáticas e melhorias de formatação facilitando a leitura, sendo adotado o padrão brasileiro de formatação numérico.
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
+
+## Números Complexos <a name="Complexos.py"></a>
+
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
+
+## Números Complexos <a name="Complexos.py"></a>
+
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
+
+## Números Complexos <a name="Complexos.py"></a>
+
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
+
+## Números Complexos <a name="Complexos.py"></a>
+
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
+
+## Números Complexos <a name="Complexos.py"></a>
+
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
+
+## Números Complexos <a name="Complexos.py"></a>
+
+Calculadora simples que faz potência de 2 e raíz quadrada, e caso o radicando da raiz seja negativa, o cálculo é realizado para resultar em um número complexo. 
 
 --
 
