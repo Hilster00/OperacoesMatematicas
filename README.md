@@ -66,6 +66,7 @@ Este código Python implementa funções cos e sen para calcular o cosseno e o s
 ## Triângulo de pascal <a name="Pascal.py"></a>
 
 Este código Python gera a linha n do Triângulo de Pascal, um padrão triangular de números inteiros. O usuário é solicitado a inserir o número da linha desejada, e a linha correspondente é impressa
+
 --
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
