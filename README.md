@@ -27,6 +27,14 @@ Este repositório contem várias funções matemáticas que implementei ao longo
 
 ---
 
+## Operações básicas com matrizes <a name="Matriz"></a>
+
+Este repositório contém códigos Python para realizar diversas operações de matrizes.
+
+## Operações básicas com números Primos <a name="Primos"></a>
+
+Este repositório abriga códigos Python relacionados a números primos. Você encontrará funções para verificar se um número é o produto de dois primos, gerar os primeiros números primos, bem como calcular o produto de dois primos com um número específico de dígitos.
+
 ## Calculadora de Derivada <a name="CalculadoraDerivada.py"></a>
 
 Calcula a derivada de forma simples, com isso não permite expressões muito elaboradas.
