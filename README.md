@@ -59,13 +59,13 @@ Este código implementa uma classe chamada numero que permite representar númer
 
 Este código Python demonstra a execução de operações de conjunto (união, interseção e diferença) em duas listas. As listas são convertidas em conjuntos para realizar as operações, e os resultados são impressos. É útil para entender como realizar operações de conjunto em coleções de elementos.
 
-## Cálculo de Seno e Cosseno <a name="SenCos.py"></a>
-
-Este código Python implementa funções cos e sen para calcular o cosseno e o seno de um número usando séries de Taylor. O fatorial é pré-calculado para otimizar o desempenho. 
-
 ## Triângulo de pascal <a name="Pascal.py"></a>
 
 Este código Python gera a linha n do Triângulo de Pascal, um padrão triangular de números inteiros. O usuário é solicitado a inserir o número da linha desejada, e a linha correspondente é impressa
+
+## Cálculo de Seno e Cosseno <a name="SenCos.py"></a>
+
+Este código Python implementa funções cos e sen para calcular o cosseno e o seno de um número usando séries de Taylor. O fatorial é pré-calculado para otimizar o desempenho. 
 
 --
 
