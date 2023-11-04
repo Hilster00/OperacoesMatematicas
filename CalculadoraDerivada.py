@@ -69,7 +69,7 @@ def derivada_mult(expressao1,expressao2):
     
 while True:
     
-    tipo=input('Digite o tipo de operacao (+,*)')
+    tipo=input('Digite o tipo de operacao (+,*):')
     q=1
     if tipo == '*':
         q=2
