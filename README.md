@@ -3,30 +3,54 @@ Este repositório contem várias funções matemáticas que implementei ao longo
 
 ## Códigos Disponíveis
 
-Aqui está a lista dos códigos disponíveis neste repositório:
+---
 
-1. **CalculadoraDerivada**: Um programa que calcula derivadas de funções matemáticas.
+## Códigos:
 
-2. **Fatorial**: Um código para calcular o fatorial de um número usando uma abordagem iterativa.
+- [CalculadoraDerivada](Versao0)
+- [Fatorail](Versao1)
+- [Fatorial_Memoizacao](Versao2)
+- [Numeros](Versao3)
+- [Versão 4 - Interface Gráfica](Versao4)
+- [Versão 5 - Integração com a Versão 3](Versao5)
+- [Versão 6 - Adição de Raiz Quadrada](Versao6)
+- [Versão 7 - Adição de Funções Seno e Cosseno](Versao7)
 
-3. **Fatorial_Memoizacao**: Uma implementação do cálculo do fatorial com memoização para otimização.
+---
 
-4. **Numeros**: Um programa que realiza operações matemáticas básicas em números.
+## Versão 0 - Calculadora Simples<a name="CalculadoraDerivada.py"></a>
 
-5. **OperacoesConjuntos**: Exemplos de operações de conjuntos como união, interseção e diferença.
+Minha primeira calculadora feita em python, ela é simples com um módulo para cada operação matemática básica.
 
-6. **SenCos**: Códigos que calculam funções seno e cosseno.
+## Versão 1 - Calculadora com Módulos<a name="Versao1"></a>
 
-7. **fibonacci**: Um programa para calcular números da sequência de Fibonacci.
+Uma calculadora com um módulo para operações matemáticas básicas e outro para importação de números e operações. O programa principal calcula com base nas entradas.
 
-## Como Usar
+## Versão 2 - Calculadora de Operações Únicas<a name="Versao2"></a>
 
-Cada pasta no repositório contém um código Python independente com um nome correspondente à funcionalidade que ele executa. Para executar um código específico, siga as instruções apropriadas no README de cada pasta.
+Uma calculadora que interpreta operações em uma única entrada, eliminando a necessidade de digitar números separadamente.
 
-## Contribuição
+## Versão 3 - Calculadora com Precedência<a name="Versao3"></a>
 
-Contribuições são bem-vindas! Se você deseja adicionar mais códigos relacionados a operações matemáticas ou melhorar os existentes, sinta-se à vontade para abrir um pull request.
+Uma calculadora aprimorada que leva em consideração a precedência das operações matemáticas ao interpretar expressões.
 
-## Licença
+## Versão 4 - Interface Gráfica<a name="Versao4"></a>
 
-Este projeto está sob a licença [MIT](LICENSE).
+Uma interface gráfica foi adicionada à calculadora para uma experiência mais amigável. Usa `eval` para calcular as operações.
+
+## Versão 5 - Integração com a Versão 3<a name="Versao5"></a>
+
+A versão 3, com sua interpretação de operações com precedência, foi integrada ao back-end para cálculos precisos.
+
+## Versão 6 - Adição de Raiz Quadrada<a name="Versao6"></a>
+
+Melhorias internas na forma de codificação, agora não existe uma função separada para cada botão e mais funções matemáticas foram adicionadas.
+
+## Versão 7 - Adição de Funções Seno e Cosseno<a name="Versao7"></a>
+
+Melhorias na interpretação de parenteses não fechados corretamente e na separação de operações, aceitando operações seguidas como √√9, adicionado mais operações matemáticas e melhorias de formatação facilitando a leitura, sendo adotado o padrão brasileiro de formatação numérico.
+
+--
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
