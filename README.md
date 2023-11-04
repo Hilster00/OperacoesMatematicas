@@ -7,6 +7,8 @@ Este repositório contem várias funções matemáticas que implementei ao longo
 
 ## Códigos:
 
+- [Operações básicas com matrizes](Matriz)
+- [Operações básicas com números Primos](Primos)
 - [Calculadora de Derivada](CalculadoraDerivada.py)
 - [Números Complexos](Complexos.py)
 - [Fatorail](Fatorial.py)
@@ -15,10 +17,10 @@ Este repositório contem várias funções matemáticas que implementei ao longo
 - [Encontrar Menor ou Maior Valor](MenorMaiorValor.py)
 - [Números de Diferentes Bases](Numeros.py)
 - [Operações de Conjuntos](OperacoesConjuntos.py)
+- [Triângulo de pascal](Pascal.py)
 - [Cálculo de Seno e Cosseno](SenCos.py)
-- [Triângulo de pascal](pascal.py)
-- [Operações básicas com matrizes](Matriz)
-- [Operações básicas com números Primos](Primos)
+  
+  
 
   
 
@@ -61,10 +63,9 @@ Este código Python demonstra a execução de operações de conjunto (união, i
 
 Este código Python implementa funções cos e sen para calcular o cosseno e o seno de um número usando séries de Taylor. O fatorial é pré-calculado para otimizar o desempenho. 
 
-## Números Complexos <a name="Complexos.py"></a>
+## Triângulo de pascal <a name="Pascal.py"></a>
 
-Este código Python implementa funções cos e sen para calcular o cosseno e o seno de um número usando séries de Taylor. O fatorial é pré-calculado para otimizar o desempenho. 
-
+Este código Python gera a linha n do Triângulo de Pascal, um padrão triangular de números inteiros. O usuário é solicitado a inserir o número da linha desejada, e a linha correspondente é impressa
 --
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
