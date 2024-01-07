@@ -19,7 +19,7 @@ Este repositório contem várias funções matemáticas que implementei ao longo
 - [Operações de Conjuntos](OperacoesConjuntos.py)
 - [Triângulo de pascal](Pascal.py)
 - [Cálculo de Seno e Cosseno](SenCos.py)
-  
+- [Simplificador de frações](SimplificadorFracoes.py)
   
 
   
@@ -75,7 +75,10 @@ Este código Python gera a linha n do Triângulo de Pascal, um padrão triangula
 
 Este código Python implementa funções cos e sen para calcular o cosseno e o seno de um número usando séries de Taylor. O fatorial é pré-calculado para otimizar o desempenho. 
 
+## Simplificador de frações <a name="SimplificadorFracoes.py"></a>
+
+Este código Python importa frações de um arquivo e, calcula o mdc entre o numerador e denominador, para achar o máximo divisor comum entre eles para efetuar a simplificação, e então salva as frações simplificadas em um novo arquivo.
+
 --
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
