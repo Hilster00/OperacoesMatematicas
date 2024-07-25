@@ -13,7 +13,7 @@ class numero:
             if valor == None:
                 self.valor="0"
             else:
-                self.valor=str(valor)
+                self.valor=str(valor).upper()
         else:
             raise ValueError(f"Base {base} invalida")
     
@@ -52,7 +52,7 @@ class numero:
     @valor.setter
     def valor(self,valor):
         self.__valor=[i for i in str(valor)]
-    
+
     @classmethod
     def __decimal(cls,valor,base):
         d=0
@@ -60,12 +60,13 @@ class numero:
             d+=cls.__lista.index(va)*(base**i)
         return d
         
-    def decimal(self,valor=None,base=None):
-        if valor == None:
-            valor=self.valor
-        if base == None:
-            base=self.__base
-        return self.__decimal(valor,base)
+    #conversão de valor do objeto ou usando a classe
+    def decimal(self,valor=None):
+        if isinstance(self, numero):
+            valor = self.valor if valor is None else valor
+            return self.__decimal(valor,self.__base)
+        return numero.__decimal(str(self).upper(),valor)
+
         
     def __str__(self):
         
@@ -81,3 +82,8 @@ if __name__=='__main__':
     a.base=2
     print(a.decimal())
     print(a)
+    
+    b=numero('a',36)
+    print(b.decimal())
+    print(numero.decimal(10,36))
+    print(numero.decimal('0w',36))
